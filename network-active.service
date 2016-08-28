@@ -1,7 +1,7 @@
-# blink.service -- version 28-Aug-2016
+# network-active.service -- version 28-Aug-2016
 # See https://github.com/fordsfords/network-active/tree/gh-pages
 [Unit]
-Description=start blink after boot
+Description=wait for network to be active
 After=default.target
 
 [Service]
