@@ -5,7 +5,7 @@ Description=start blink after boot
 After=default.target
 
 [Service]
-Type=simple
+Type=oneshot
 ExecStart=/usr/local/bin/network-active.sh
 
 [Install]
