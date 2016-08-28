@@ -6,7 +6,7 @@ After=default.target
 
 [Service]
 Type=simple
-ExecStart=/usr/local/bin/blink.sh
+ExecStart=/usr/local/bin/network-active.sh
 
 [Install]
 WantedBy=default.target
