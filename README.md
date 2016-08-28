@@ -54,7 +54,8 @@ Note: the "gh-pages" branch is considered to be the current stable release.  The
 
 These instructions assume you are in a shell prompt on CHIP.
 
-1. Get the project files onto CHIP:
+1. Get the project files onto CHIP (some of the lines below might be truncated
+   on the right, but if you copy-and-paste, you should get the entire line):
 
         sudo wget -O /usr/local/bin/network-active.sh http://fordsfords.github.io/network-active/network-active.sh
         sudo chmod +x /usr/local/bin/network-active.sh
