@@ -72,6 +72,10 @@ These instructions assume you are in a shell prompt on CHIP.
         After=network-active.service
         DefaultDependencies=false
 
+   When that change is made, enter:
+
+        sudo systemctl enable /etc/systemd/system/blink.service
+
 3. Test by turning off your router and rebooting CHIP.  Wait 2 or 3 mintues and
    verify that blink does not start flashing the LED.  Then turn on your router
    and wait a few minutes.  Once CHIP is able to ping the router, the blink
