@@ -16,7 +16,7 @@ To the extent possible under law, the contributors to this project have
 waived all copyright and related or neighboring rights to this work.
 In other words, you can use this code for any purpose without any
 restrictions.  This work is published from: United States.  The project home
-is https://github.com/fordsfords/blink/tree/gh-pages
+is https://github.com/fordsfords/network-active/tree/gh-pages
 
 To contact me, Steve Ford, project owner, you can find my email address
 at http://geeky-boy.com.  Can't see it?  Keep looking.
@@ -59,7 +59,7 @@ These instructions assume you are in a shell prompt on CHIP.
 
         sudo wget -O /usr/local/bin/network-active.sh http://fordsfords.github.io/network-active/network-active.sh
         sudo chmod +x /usr/local/bin/network-active.sh
-        sudo wget -O /etc/systemd/system/network-active.service http://fordsfords.github.io/blink/network-active.service
+        sudo wget -O /etc/systemd/system/network-active.service http://fordsfords.github.io/network-active/network-active.service
         sudo systemctl enable /etc/systemd/system/network-active.service
 
 2. Configure a service of your choice to depend on network-active.  For
