@@ -1,0 +1,12 @@
+# blink.service -- version 28-Aug-2016
+# See https://github.com/fordsfords/network-active/tree/gh-pages
+[Unit]
+Description=start blink after boot
+After=default.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/blink.sh
+
+[Install]
+WantedBy=default.target
