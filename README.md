@@ -67,6 +67,7 @@ These instructions assume you are in a shell prompt on CHIP.
    https://github.com/fordsfords/blink/tree/gh-pages
    Edit the "/etc/systemd/system/blink.service" file (using sudo)
    and replace the line "After=default.target" with the lines:
+
         Requires=network-active.service
         After=network-active.service
         DefaultDependencies=false
