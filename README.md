@@ -81,7 +81,14 @@ These instructions assume you are in a shell prompt on CHIP.
    and wait a few minutes.  Once CHIP is able to ping the router, the blink
    service should start and the LED will start flashing.
 
+4. Check logging:
+
+        grep network-active /var/log/syslog
+
 ## Release Notes
+
+* 5-Sep-2016
+    Changed logging to go to syslog (used to go to /tmp).
 
 * 28-Aug-2016
     Initial release.
